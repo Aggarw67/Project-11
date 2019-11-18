@@ -1,0 +1,43 @@
+# Project 11 Solutions
+
+# Student Name: Shiveeka Aggarwal
+
+# Peer Collaborators (if any) and nature of the collaboration - None
+# TA help sought (if any) - None
+# Online resources used (if any) and weblink for location of resources - None 
+
+# 1a. (2 pts)
+# Comment about method of solution: ........
+Solution itself - length(grep("BURG$",myDF$CITY, value=T))
+# Output from the solution - 107955
+
+# 2a. (1 pt)
+# Comment about method of solution: ........
+Solution itself - length(grep("(AA|EE|II|OO|UU)",myDF$NAME,value=T))
+# Output from the solution 
+
+# 2b. (1 pt)
+# Comment about method of solution: new <- as.character(myDF$NAME)
+Solution itself - table(sort(nchar(new))
+# new[nchar(new)==118]
+# Output from the solution ........
+
+# 2c. (1 pt)
+# Comment about method of solution: ........
+Solution itself - length(grep("^AGGARWAL",myDF$NAME, value=T))
+# Output from the solution ........
+
+# 3a. (2 pts)
+# Comment about method of solution: ........
+Solution itself - myDFnew <- read.delim("myelectiontowns.txt", quote="")
+# Output from the solution ........
+
+# 3b. (2 pts)
+# Comment about method of solution: ........
+Solution itself - length(grep("TON$",myDFnew$CITY , value = T))
+# Output from the solution - 62538582
+
+# 3c. (1 pt)
+# Comment about method of solution: ........
+Solution itself - length(unique(grep("TONS$", myDFnew$CITY, value = T)))
+# Output from the solution - 3256
